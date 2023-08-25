@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #70163c;
+}
+
+a {
+    color: #70163c;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .item {
+    margin-left: 15px;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    font-weight: 500;
+}
+
+nav .item:hover {
+    border-color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 150px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.post {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    max-width: 600px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.control-group {
+    margin-bottom: 20px;
+}
+
+.control-group label, .control-group input, .control-group textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.control-group input, .control-group textarea {
+    padding: 10px;
+}
+
+button {
+    background-color: #70163c;
+    color: white;
+    border: 0;
+    outline: none;
+    padding: 12px 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.notification {
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: white;
+}
+
+.error {
+    background-color: #b4436c;
+}
+
+.success {
+    background-color: #4d9078;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.preview {
+    max-width: 20%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-form {
+    margin-left: 10px;
+}
+
+
