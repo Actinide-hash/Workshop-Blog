@@ -7,13 +7,12 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace PHPUnit;
-
-use Throwable;
+namespace PHPUnit\Runner;
 
 /**
- * @internal This class is not covered by the backward compatibility promise for PHPUnit
+ * @no-named-arguments Parameter names are not covered by the backward compatibility promise for PHPUnit
  */
-interface Exception extends Throwable
+interface BeforeTestHook extends TestHook
 {
+    public function executeBeforeTest(string $test): void;
 }
